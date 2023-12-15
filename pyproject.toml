@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "physics-informed-nn-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["jbris <james.bristow@plantandfood.co.nz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.1.2"
+networkx = "^3.2.1"
+jinja2 = "^3.1.2"
+numpy = "^1.26.2"
+pandas = "^2.1.4"
+matplotlib = "^3.8.2"
+scipy = "^1.11.4"
+jupyterlab = "^4.0.9"
+notebook = "^7.0.6"
+h5py = "^3.10.0"
+torchopt = "^0.7.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
